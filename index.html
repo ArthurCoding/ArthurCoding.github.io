@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Arthur Saraiva</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Arthur Saraiva: infraestrutura, redes e segurança da informação em Fortaleza, CE.">
+<meta property="og:title" content="Arthur Saraiva · Infraestrutura, Redes e Segurança">
+<meta property="og:description" content="Experiência, projetos e certificações de Arthur Saraiva.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#inicio">arthur.saraiva</a>
+    <nav class="nav" aria-label="Seções">
+      <a href="#sobre">Sobre</a>
+      <a href="#atuacao">Atuação</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#ia">IA</a>
+      <a href="#certificacoes">Certificações</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="Alternar tema claro e escuro">
+      <span class="theme-ico" aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero wrap" aria-labelledby="hero-nome">
+    <p class="hero-local anim" id="hero-local"></p>
+    <h1 class="anim" id="hero-nome"></h1>
+    <ul class="headline" id="hero-headline"></ul>
+    <div class="hero-agora anim" id="hero-agora"></div>
+  </section>
+
+  <section class="sec wrap" id="sobre" aria-labelledby="t-sobre">
+    <h2 class="sec-label" id="t-sobre">Sobre</h2>
+    <div class="sec-body">
+      <div class="prose" id="sobre-texto"></div>
+      <div class="formacao" id="formacao"></div>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="atuacao" aria-labelledby="t-atu">
+    <div class="sec-label-wrap">
+      <h2 class="sec-label" id="t-atu">Onde atuo</h2>
+      <p class="sec-hint">Clique em um equipamento da rede para ver as ferramentas e onde usei.</p>
+    </div>
+    <div class="sec-body" id="topo-wrap"></div>
+  </section>
+
+  <section class="sec wrap" id="experiencia" aria-labelledby="t-exp">
+    <h2 class="sec-label" id="t-exp">Experiência</h2>
+    <div class="sec-body" id="exp"></div>
+  </section>
+
+  <section class="sec wrap" id="projetos" aria-labelledby="t-proj">
+    <h2 class="sec-label" id="t-proj">Projetos</h2>
+    <div class="sec-body" id="lista-projetos"></div>
+  </section>
+
+  <section class="sec wrap" id="ia" aria-labelledby="t-ia">
+    <h2 class="sec-label" id="t-ia">IA como ferramenta</h2>
+    <div class="sec-body" id="ia-body"></div>
+  </section>
+
+  <section class="sec wrap" id="certificacoes" aria-labelledby="t-cert">
+    <h2 class="sec-label" id="t-cert">Certificações e cursos</h2>
+    <div class="sec-body" id="certs"></div>
+  </section>
+
+  <section class="sec wrap" id="contato" aria-labelledby="t-contato">
+    <h2 class="sec-label" id="t-contato">Contato</h2>
+    <div class="sec-body" id="contato-body"></div>
+  </section>
+</main>
+
+<footer class="foot wrap" id="rodape"></footer>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
